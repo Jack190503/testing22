@@ -1,0 +1,170 @@
+.new_arrival_container{
+    width: 100%;
+    height: 103vh;
+    background-color: black;
+}
+
+
+.new_arrival_header h1{
+    color: white;
+    text-align: center;
+    margin: 30px;
+    
+}
+
+.new_arrival_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.line{
+    width: 100px;
+    height:2px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+.arrival_cart{
+    width: 35%;
+    height: 45vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(47, 44, 44, 0.3));
+    position: relative;
+    z-index: 1;
+}
+
+.new_arrival_aero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aero_text{
+    color: white;
+    width: 350px;
+    height: 370px;
+    opacity: 40%;
+    padding: 20px;
+    z-index: 10;
+}
+
+.aero_text_two{
+    color: white;
+    width: 100%;
+    height: 370px;
+    opacity: 40%;
+    padding: 20px;
+}
+
+.aero_text_two p{
+    width: 400px;
+}
+
+.aero_text p{
+    background: none;
+}
+.aero_text h3{
+    background: none;
+}
+
+.aero_text h4{
+    background: none;
+}
+
+.arrival_image1{
+    background-image:url("/images/nismo\ kit.png");
+    background-position: center;
+    background-size: cover;
+    width: 70%;
+    height: 45vh;
+    position: absolute;
+}
+
+.arrival_image2{
+    background-image: linear-gradient( rgba(0,0,0,0.3) , rgba(47, 44, 44, 0.3)) , url("/images/swan.png");
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+    height: 45vh;
+}
+
+.arrival_image3{
+    background-image: linear-gradient( rgba(0,0,0,0.1) , rgba(47, 44, 44, 0.1)) , url("/images/gr_supra_90R-RS_p1-scaled\ 3.png");
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 45vh;
+}
+
+.arrival_image4{
+    background-image: linear-gradient( rgba(0,0,0,0.3) , rgba(47, 44, 44, 0.3)) , url("/images/supra_back.jpeg");
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 45vh;
+}
+
+@media(max-width:768px){
+
+    .new_arrival_container{
+        height: 110vh;
+    }
+    .new_arrival_aero{
+        flex-direction: column;
+        width: 100%;
+        
+    }
+
+    .arrival_image1{
+        width: 100%;
+        height: 25vh;
+    }
+    
+    .arrival_image2{
+        width: 100%;
+        height: 25vh;
+        margin-top: 25vh;
+    }
+
+    .arrival_image3{
+        width: 100%;
+        height: 25vh;
+    }
+
+    .arrival_image4{
+        width: 100%;
+        height: 25vh;
+    }
+
+    .arrival_cart{
+        display: none;
+    }
+}
+
+@media(max-width:425px){
+
+   
+    .new_arrival_header{
+        
+        font-size: xx-small;
+    }    
+
+    .aero_text p{
+        width: 250px;
+        font-size: xx-small;
+    }
+
+    .aero_text_two p{
+        width: 250px;
+        font-size: xx-small;
+    }
+
+    .line{
+        display: none;
+    }
+}
+
+
+

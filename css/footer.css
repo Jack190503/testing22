@@ -1,0 +1,104 @@
+.card_four{
+    background: linear-gradient( rgba(0,0,0,0.7) , rgba(0,0,0,0.7)) ,
+    url("/images/Designer.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 65vh;
+    position: absolute;
+}
+
+.footer_text{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    padding: 20px;
+}
+
+.footer_text p {
+    line-height: 40px;
+    color: white;
+}
+
+.footer_text img{
+    margin-top: 50px;
+}
+
+.footer-line{
+    width: 90%;
+    height: 2px;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+    margin-left: 75px;
+}
+
+.second_footer_line{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 20px;
+}
+
+.second_footer_line p {
+    color: white;
+}
+
+.last_footer{
+    text-align: center;
+    position: relative;
+    color: white;
+    padding: 50px;
+    font-size: xx-small;
+}
+
+.copyright{
+    text-align: center;
+    color: white;
+    position: relative;
+    font-size: x-small;
+}
+
+@media(max-width:425px){
+
+    
+   .card_four{
+    height: 120vh;
+   }
+    .footer_text{
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        /* align-items: center; */
+        justify-content: center;
+        text-align: center;
+        justify-items: center;
+    }
+    .footer_text p {
+        line-height: 25px;
+        font-size: x-small;
+    }
+    .footer_text img{
+        margin-top: 10px;
+    }
+    .footer-line{
+        margin-left: 15px;
+    }
+    .second_footer_line{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .second_footer_line p {
+        line-height: 25px;
+        font-size: x-small;
+    }
+    .last_footer{
+        padding: 20px;
+    }
+    .copyright{
+        padding: 5px;
+    }
+    
+
+   
+}
